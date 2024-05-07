@@ -1,24 +1,39 @@
-/* ProgramSchedule.module.css */
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.table {
+/* Apply styles to the table */
+table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.table th,
-.table td {
-  padding: 8px;
+/* Style for table header cells */
+th {
+  background-color: #f2f2f2;
   border: 1px solid #ddd;
+  border-top: none; /* Remove top border */
+  padding: 10px;
+  text-align: left;
+  color: black; /* Set text color to black */
+}
+
+/* Style for table body cells */
+td {
+  border: 1px solid #ddd;
+  border-top: none; /* Remove top border */
+  padding: 10px;
   text-align: left;
 }
 
-.table th {
+/* Alternate row background color */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect on rows */
+tr:hover {
   background-color: #f2f2f2;
+}
+
+/* Style for blank cells */
+td.blank {
+  background-color: transparent;
 }
