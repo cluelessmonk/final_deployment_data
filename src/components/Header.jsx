@@ -1,4 +1,4 @@
-import banner from "../images/banner.png";
+import banner from "../images/adt_banner.png";
 function Header() {
   return (
     <div className=" w-full h-50 border border-black mb-2">
