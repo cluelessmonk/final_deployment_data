@@ -52,88 +52,87 @@ const Committee = () => {
       college: "MNNIT Allahabad",
     },
   ];
+
   return (
     <div className="container mx-auto px-4 py-8 overflow-x-auto text-base">
-      <header className="text-center">
-        <h1 className="text-3xl underline text-white font-bold">
+      <header className="text-center mb-8">
+        <h1 className="text-3xl underline text-gray-800 font-bold">
           Organizing Committee
         </h1>
       </header>
-      <main className="mt-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="table-container">
-            <h2 className="text-xl underline   font-bold mb-4">
-              Organizing Committee
-            </h2>
-            <table className="table-auto w-full border-collapse border border-gray-300">
-              <thead>
-                <tr>
-                  <th className="px-4 py-2">Role</th>
-                  <th className="px-4 py-2">Name</th>
-                  <th className="px-4 py-2">College</th>
+      <main className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="bg-white shadow-md rounded-lg overflow-hidden">
+          <h2 className="text-xl underline text-center font-bold py-4 bg-gray-200">
+            Organizing Committee
+          </h2>
+          <table className="table-auto w-full">
+            <thead>
+              <tr>
+                <th className="px-4 py-2 bg-gray-100 border-b">Role</th>
+                <th className="px-4 py-2 bg-gray-100 border-b">Name</th>
+                <th className="px-4 py-2 bg-gray-100 border-b">College</th>
+              </tr>
+            </thead>
+            <tbody>
+              {organizingCommittee.map((member, index) => (
+                <tr key={index}>
+                  <td className="border px-4 py-2">{member.role}</td>
+                  <td className="border px-4 py-2">
+                    {member.name}, {member.department}
+                  </td>
+                  <td className="border px-4 py-2">{member.college}</td>
                 </tr>
-              </thead>
-              <tbody>
-                {organizingCommittee.map((member, index) => (
-                  <tr key={index}>
-                    <td className="border px-4 py-2">{member.role}</td>
-                    <td className="border px-4 py-2">
-                      {member.name}, {member.department}
-                    </td>
-                    <td className="border px-4 py-2">{member.college}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+              ))}
+            </tbody>
+          </table>
+        </div>
 
-          <div className="table-container">
-            <h2 className="text-xl font-bold mb-4 underline">
-              Organizing Secretary(s)
-            </h2>
-            <table className="table-auto w-full border-collapse border border-gray-300">
-              <thead>
-                <tr>
-                  <th className="px-4 py-2">Name</th>
-                  <th className="px-4 py-2">Department</th>
-                  <th className="px-4 py-2">College</th>
+        <div className="bg-white shadow-md rounded-lg overflow-hidden">
+          <h2 className="text-xl underline text-center font-bold py-4 bg-gray-200">
+            Organizing Secretary(s)
+          </h2>
+          <table className="table-auto w-full">
+            <thead>
+              <tr>
+                <th className="px-4 py-2 bg-gray-100 border-b">Name</th>
+                <th className="px-4 py-2 bg-gray-100 border-b">Department</th>
+                <th className="px-4 py-2 bg-gray-100 border-b">College</th>
+              </tr>
+            </thead>
+            <tbody>
+              {organizingSecretaries.map((member, index) => (
+                <tr key={index}>
+                  <td className="border px-4 py-2">{member.name}</td>
+                  <td className="border px-4 py-2">{member.department}</td>
+                  <td className="border px-4 py-2">{member.college}</td>
                 </tr>
-              </thead>
-              <tbody>
-                {organizingSecretaries.map((member, index) => (
-                  <tr key={index}>
-                    <td className="border px-4 py-2">{member.name}</td>
-                    <td className="border px-4 py-2">{member.department}</td>
-                    <td className="border px-4 py-2">{member.college}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+              ))}
+            </tbody>
+          </table>
+        </div>
 
-          <div className="table-container">
-            <h2 className="text-xl font-bold mb-4 underlined">
-              Organizing Coordinator(s)
-            </h2>
-            <table className="table-auto w-full border-collapse border border-gray-300">
-              <thead>
-                <tr>
-                  <th className="px-4 py-2">Name</th>
-                  <th className="px-4 py-2">Department</th>
-                  <th className="px-4 py-2">College</th>
+        <div className="bg-white shadow-md rounded-lg overflow-hidden">
+          <h2 className="text-xl underline text-center font-bold py-4 bg-gray-200">
+            Organizing Coordinator(s)
+          </h2>
+          <table className="table-auto w-full">
+            <thead>
+              <tr>
+                <th className="px-4 py-2 bg-gray-100 border-b">Name</th>
+                <th className="px-4 py-2 bg-gray-100 border-b">Department</th>
+                <th className="px-4 py-2 bg-gray-100 border-b">College</th>
+              </tr>
+            </thead>
+            <tbody>
+              {organizingCoordinators.map((member, index) => (
+                <tr key={index}>
+                  <td className="border px-4 py-2">{member.name}</td>
+                  <td className="border px-4 py-2">{member.department}</td>
+                  <td className="border px-4 py-2">{member.college}</td>
                 </tr>
-              </thead>
-              <tbody>
-                {organizingCoordinators.map((member, index) => (
-                  <tr key={index}>
-                    <td className="border px-4 py-2">{member.name}</td>
-                    <td className="border px-4 py-2">{member.department}</td>
-                    <td className="border px-4 py-2">{member.college}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+              ))}
+            </tbody>
+          </table>
         </div>
       </main>
     </div>
