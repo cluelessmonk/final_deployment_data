@@ -6,13 +6,13 @@ function ContactUs() {
       <h3 className="text-3xl font-bold mt-3 mb-3">Contact Us</h3>
       <div className="text-2xl mt-3 mb-3 ">
         <p>
-          <strong>Address:</strong> 123 Main Street, City, Country
+          <strong>Website:</strong> http://www.mnnit.ac.in/
         </p>
         <p>
-          <strong>Email:</strong> contact@example.com
+          <strong>Email:</strong> manishas@mnnit.ac.in , seemanara@mnnit.ac.in
         </p>
         <p>
-          <strong>Phone:</strong> +1 (555) 123-4567
+          <strong>Mobile:</strong> +919984421252, +919044533554
         </p>
       </div>
       <div className={styles["contact-form"]}>

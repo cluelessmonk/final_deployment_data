@@ -65,74 +65,78 @@ const Committee = () => {
           <h2 className="text-xl underline text-center font-bold py-4 bg-gray-200">
             Organizing Committee
           </h2>
-          <table className="table-auto w-full">
-            <thead>
-              <tr>
-                <th className="px-4 py-2 bg-gray-100 border-b">Role</th>
-                <th className="px-4 py-2 bg-gray-100 border-b">Name</th>
-                <th className="px-4 py-2 bg-gray-100 border-b">College</th>
-              </tr>
-            </thead>
-            <tbody>
-              {organizingCommittee.map((member, index) => (
-                <tr key={index}>
-                  <td className="border px-4 py-2">{member.role}</td>
-                  <td className="border px-4 py-2">
-                    {member.name}, {member.department}
-                  </td>
-                  <td className="border px-4 py-2">{member.college}</td>
+          <div className="overflow-x-auto">
+            <table className="table-auto w-full">
+              <thead>
+                <tr>
+                  <th className="px-4 py-2 bg-gray-100 border-b">Role</th>
+                  <th className="px-4 py-2 bg-gray-100 border-b">Name</th>
+                  <th className="px-4 py-2 bg-gray-100 border-b">College</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {organizingCommittee.map((member, index) => (
+                  <tr key={index}>
+                    <td className="border px-4 py-2 whitespace-nowrap">{member.role}</td>
+                    <td className="border px-4 py-2">{member.name}, {member.department}</td>
+                    <td className="border px-4 py-2">{member.college}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
 
         <div className="bg-white shadow-md rounded-lg overflow-hidden">
           <h2 className="text-xl underline text-center font-bold py-4 bg-gray-200">
             Organizing Secretary(s)
           </h2>
-          <table className="table-auto w-full">
-            <thead>
-              <tr>
-                <th className="px-4 py-2 bg-gray-100 border-b">Name</th>
-                <th className="px-4 py-2 bg-gray-100 border-b">Department</th>
-                <th className="px-4 py-2 bg-gray-100 border-b">College</th>
-              </tr>
-            </thead>
-            <tbody>
-              {organizingSecretaries.map((member, index) => (
-                <tr key={index}>
-                  <td className="border px-4 py-2">{member.name}</td>
-                  <td className="border px-4 py-2">{member.department}</td>
-                  <td className="border px-4 py-2">{member.college}</td>
+          <div className="overflow-x-auto">
+            <table className="table-auto w-full">
+              <thead>
+                <tr>
+                  <th className="px-4 py-2 bg-gray-100 border-b">Name</th>
+                  <th className="px-4 py-2 bg-gray-100 border-b">Department</th>
+                  <th className="px-4 py-2 bg-gray-100 border-b">College</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {organizingSecretaries.map((member, index) => (
+                  <tr key={index}>
+                    <td className="border px-4 py-2 whitespace-nowrap">{member.name}</td>
+                    <td className="border px-4 py-2">{member.department}</td>
+                    <td className="border px-4 py-2">{member.college}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
 
         <div className="bg-white shadow-md rounded-lg overflow-hidden">
           <h2 className="text-xl underline text-center font-bold py-4 bg-gray-200">
             Organizing Coordinator(s)
           </h2>
-          <table className="table-auto w-full">
-            <thead>
-              <tr>
-                <th className="px-4 py-2 bg-gray-100 border-b">Name</th>
-                <th className="px-4 py-2 bg-gray-100 border-b">Department</th>
-                <th className="px-4 py-2 bg-gray-100 border-b">College</th>
-              </tr>
-            </thead>
-            <tbody>
-              {organizingCoordinators.map((member, index) => (
-                <tr key={index}>
-                  <td className="border px-4 py-2">{member.name}</td>
-                  <td className="border px-4 py-2">{member.department}</td>
-                  <td className="border px-4 py-2">{member.college}</td>
+          <div className="overflow-x-auto">
+            <table className="table-auto w-full">
+              <thead>
+                <tr>
+                  <th className="px-4 py-2 bg-gray-100 border-b">Name</th>
+                  <th className="px-4 py-2 bg-gray-100 border-b">Department</th>
+                  <th className="px-4 py-2 bg-gray-100 border-b">College</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {organizingCoordinators.map((member, index) => (
+                  <tr key={index}>
+                    <td className="border px-4 py-2 whitespace-nowrap">{member.name}</td>
+                    <td className="border px-4 py-2">{member.department}</td>
+                    <td className="border px-4 py-2">{member.college}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </main>
     </div>
