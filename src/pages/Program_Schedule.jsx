@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/ProgramSchedule.css"; // Import the CSS file
+import styles from "../styles/ProgramSchedule.module.css"; // Import the CSS file
 
 const Program_Schedule = () => {
   // Data for the tables
