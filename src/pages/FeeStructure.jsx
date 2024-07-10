@@ -18,8 +18,8 @@ function FeeStructure() {
               Category of Participants
             </th>
             <th className="border border-black px-4 py-2">Early Bird</th>
-            <th className="border border-black px-4 py-2">Late</th>
-            <th className="border border-black px-4 py-2">On spot</th>
+            <th className="border border-black px-4 py-2">Late/Onspot</th>
+            {/* <th className="border border-black px-4 py-2">On spot</th> */}
           </tr>
         </thead>
         <tbody>
@@ -27,37 +27,37 @@ function FeeStructure() {
             <td className="border border-black px-4 py-2">
               Student(UG/PG) (INR)
             </td>
-            <td className="border border-black px-4 py-2">2000</td>
-            <td className="border border-black px-4 py-2">2500</td>
             <td className="border border-black px-4 py-2">3000</td>
+            <td className="border border-black px-4 py-2">4000</td>
+            {/* <td className="border border-black px-4 py-2">3000</td> */}
           </tr>
           <tr>
             <td className="border border-black px-4 py-2">
               PhD/Postdoc/Research Fellow (INR)
             </td>
-            <td className="border border-black px-4 py-2">3000</td>
-            <td className="border border-black px-4 py-2">3500</td>
             <td className="border border-black px-4 py-2">4000</td>
+            <td className="border border-black px-4 py-2">5000</td>
+            {/* <td className="border border-black px-4 py-2">4000</td> */}
           </tr>
           <tr>
             <td className="border border-black px-4 py-2">Academia (INR)</td>
-            <td className="border border-black px-4 py-2">6000</td>
-            <td className="border border-black px-4 py-2">6500</td>
-            <td className="border border-black px-4 py-2">7000</td>
+            <td className="border border-black px-4 py-2">8000</td>
+            <td className="border border-black px-4 py-2">10000</td>
+            {/* <td className="border border-black px-4 py-2">7000</td> */}
           </tr>
           <tr>
             <td className="border border-black px-4 py-2">Industries (INR)</td>
-            <td className="border border-black px-4 py-2">8000</td>
-            <td className="border border-black px-4 py-2">9000</td>
             <td className="border border-black px-4 py-2">10000</td>
+            <td className="border border-black px-4 py-2">12000</td>
+            {/* <td className="border border-black px-4 py-2">10000</td> */}
           </tr>
           <tr>
             <td className="border border-black px-4 py-2">
               Foreign Delegates (USD)
             </td>
-            <td className="border border-black px-4 py-2">200</td>
-            <td className="border border-black px-4 py-2">250</td>
             <td className="border border-black px-4 py-2">300</td>
+            <td className="border border-black px-4 py-2">400</td>
+            {/* <td className="border border-black px-4 py-2">300</td> */}
           </tr>
         </tbody>
       </table>

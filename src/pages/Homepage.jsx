@@ -86,6 +86,17 @@ function Homepage() {
             Nanotechnology in diagnostic applications
           </li>
           {/* Repeat similar structure for other list items */}
+          <li className={styles["theme-item"]}>Omics technology as new dimension in disease
+          diagnosis</li>{" "}
+          <li className={styles["theme-item"]}>Advancements in cancer diagnostics</li>{" "}
+          <li className={styles["theme-item"]}>Development of liquid biopsy-based assays</li>{" "}
+          <li className={styles["theme-item"]}>Point of care and affordable diagnostics</li>{" "}
+          <li className={styles["theme-item"]}>Miniaturization and automation of diagnostic
+          methods</li>{" "}
+          <li className={styles["theme-item"]}>Precision medicine and digital health</li>{" "}
+          <li className={styles["theme-item"]}>Impact and use of AI and ML in diagnostics</li>{" "}
+          <li className={styles["theme-item"]}>Advanced imaging techniques for diagnostics</li>{" "}
+
         </ul>
       </section>
     </div>

@@ -61,12 +61,12 @@ const CallforPapers = () => {
                 <td className={styles["date-value"]}>15th August 2024</td>
               </tr>
               <tr>
-                <td>Notification of Acceptance</td>
-                <td className={styles["date-value"]}>15th September 2024</td>
+                <td>Acceptance and notifications</td>
+                <td className={styles["date-value"]}>15th October 2024</td>
               </tr>
               <tr>
-                <td>Camera-Ready Paper Submission</td>
-                <td className={styles["date-value"]}>15th October 2024</td>
+                <td>Early Bird Registration</td>
+                <td className={styles["date-value"]}>15th August 2024</td>
               </tr>
             </tbody>
           </table>

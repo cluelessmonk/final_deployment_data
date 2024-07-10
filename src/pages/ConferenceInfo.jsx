@@ -45,7 +45,7 @@ function ConferenceInfo() {
           For further information, the participant can view and download the
           Conference Brochure by clicking{" "}
           <a
-            href="https://drive.google.com/file/d/1BpLfqBaYIBrwDmWlExkiA2BXIYld65cr/view?usp=sharing"
+            href="https://drive.google.com/file/d/1tmCLsJ7aij3KicjlKIrJRUokci6zxBof/view?usp=sharing"
             target="_blank"
             className="text-blue-600"
           >
