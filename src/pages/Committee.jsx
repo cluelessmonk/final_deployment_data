@@ -54,13 +54,13 @@ const Committee = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8 overflow-x-auto text-base">
+    <div className="container mx-auto px-4 py-8 text-base">
       <header className="text-center mb-8">
         <h1 className="text-3xl underline text-gray-800 font-bold">
           Organizing Committee
         </h1>
       </header>
-      <main className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <main className="space-y-8">
         <div className="bg-white shadow-md rounded-lg overflow-hidden">
           <h2 className="text-xl underline text-center font-bold py-4 bg-gray-200">
             Organizing Committee
