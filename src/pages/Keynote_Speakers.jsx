@@ -1,6 +1,92 @@
 import bnr from "../images/img2.avif";
 import moreToCome from "../images/moretocome.png";
 import styles from "../styles/Keynote_Speaker.module.css";
+import p1 from "../images/Picture1.jpg";
+import p2 from "../images/Picture2.jpg";
+import p3 from "../images/Picture3.jpg";
+import p4 from "../images/Picture4.jpg";
+import p5 from "../images/Picture5.jpg";
+import p6 from "../images/Picture6.jpg";
+
+const speakers = [
+  {
+    img: p1,
+    name: "Prof. Satish Raghvan",
+    title: "Dept. of Biochemistry",
+    institution: "IISc Bangalore",
+  },
+  {
+    img: p2,
+    name: "Prof. Bushra Ateeq",
+    title: "BSBE",
+    institution: "IIT Kanpur",
+  },
+  {
+    img: p3,
+    name: "Prof. Cathal Gurrin",
+    title: "School of Computing",
+    institution: "Dublin City University, Ireland",
+  },
+  {
+    img: p4,
+    name: "Prof. Uday C Ghoshal",
+    title: "Senior Consultant",
+    institution: "Gastroenterology Apollo Multispeciality Hospitals, Kolkata",
+  },
+  {
+    img: p5,
+    name: "Dr. Evgeny G. Izumchenko",
+    institution: "University of Chicago",
+  },
+  {
+    img: p6,
+    name: "Dr. Arindam Chakraborty",
+    institution: "Enzene Biosciences, Pune",
+  },
+];
+
+const invitedSpeakers = [
+  { name: "Prof. Siddharth S Gosh", institution: "IIT Guwahati" },
+  { name: "Prof. Sateesh Babu", institution: "Amrita University, Coimbatore" },
+  { name: "Prof. Subhash Chandra Bose Gopinath", institution: "UNIMAP, Malaysia" },
+  { name: "Prof. Ashok Sharma", institution: "AIIMS Delhi" },
+  { name: "Dr. Moh’d Khushman", institution: "Washington University, St. Louis, USA" },
+  { name: "Dr. Kanhiya Singh", institution: "PITsburg University" },
+  { name: "Dr. Pranjal Chandra", institution: "IIT BHU" },
+  { name: "Dr. Gorachand Dutta", institution: "IIT KGP" },
+  { name: "Dr. Tarun Kumar Sharma", institution: "Ahmedabad" },
+  { name: "Dr. Saurabh Kumar", institution: "NIPER Guwahati" },
+  { name: "Dr. Zineb Qmichou", institution: "MASCair Morocco" },
+  { name: "Dr. Aastha Mishra", institution: "IGIB, New Delhi" },
+  { name: "Dr. Prasoon Kumar", institution: "NIT Rourkela" },
+  { name: "Dr. Anand Kumar M", institution: "NIT Surathkal" },
+];
+
+const ProfileCard = ({ img, name, title, institution }) => (
+  <div className={styles.profile_card}>
+    <img
+      src={img}
+      style={{
+        height: "100px",
+        width: "100px",
+        borderRadius: "50%",
+        marginBottom: "20px",
+      }}
+      alt="Profile Picture"
+    />
+    <h2>{name}</h2>
+    <p>{title}</p>
+    <p>{institution}</p>
+  </div>
+);
+
+const InvitedSpeakerCard = ({ name, institution }) => (
+  <div className={styles.container}>
+    <b>{name}</b>
+    <p>{institution}</p>
+    <br />
+  </div>
+);
 
 function Keynote_Speakers() {
   return (
@@ -11,95 +97,21 @@ function Keynote_Speakers() {
         backgroundSize: "1655px 1250px",
       }}
     >
-      <div className=" mb-3">
-        <div className={styles.profile_card}>
-          <img
-            src={bnr}
-            style={{
-              height: "100px",
-
-              width: "100px",
-              borderRadius: "50%",
-              marginBottom: "20px",
-            }}
-            alt="Profile Picture"
-          />
-          <h2>Dr. Binoy Krishna Roy</h2>
-          <p>Professor, Department of Electrical Engineering</p>
-          <p>National Institute of Technology, Silchar</p>
-          <p>
-            <a href="http://eed.nits.ac.in/binoy-krishna-roy/">Website</a>
-          </p>
-        </div>
+      <div className="mb-3">
+        <h1 className={styles.font}><b>KeyNote Speaker</b></h1>
+        {speakers.map((speaker, index) => (
+          <div key={index}>
+            <ProfileCard {...speaker} />
+            <br />
+          </div>
+        ))}
+      </div>
+      <div style={{ backgroundColor: "white", padding: "20px"}}>
+        <h1 className={styles.font}><b>Invited Speakers</b></h1>
         <br />
-        <div className={styles.profile_card}>
-          <img
-            src={bnr}
-            style={{
-              height: "100px",
-              width: "100px",
-              borderRadius: "50%",
-              marginBottom: "20px",
-            }}
-            alt="Profile Picture"
-          />
-          <h2>Dr. Saraju Mohanty</h2>
-          <p>Professor, Department of Computer Science and Engineering</p>
-          <p>University of North Texas</p>
-          <p>
-            <a href="https://computerscience.engineering.unt.edu/people/faculty/saraju-mohanty">
-              Website
-            </a>
-          </p>
-        </div>
-        <br />
-        <div className={styles.profile_card}>
-          <img
-            src={bnr}
-            style={{
-              height: "100px",
-              width: "100px",
-              borderRadius: "50%",
-              marginBottom: "20px",
-            }}
-            alt="Profile Picture"
-          />
-          <h2>Dr. Mani Bhushan</h2>
-          <p>Professor, Department of Chemical Engineering</p>
-          <p>Indian Institute of Technology, Bombay</p>
-          <p>
-            <a href="https://www.che.iitb.ac.in/faculty/mani-bhushan">
-              Website
-            </a>
-          </p>
-        </div>
-        <br />
-        <div className={styles.profile_card}>
-          <img
-            src={bnr}
-            style={{
-              height: "100px",
-              width: "100px",
-              borderRadius: "50%",
-              marginBottom: "20px",
-            }}
-            alt="Profile Picture"
-          />
-          <h2>Dr. Bhavesh Kumar R.Bhalja</h2>
-          <p>Professor, Department of Electrical Engineering</p>
-          <p>Indian Institute of Technology, Roorkee</p>
-          <p>
-            <a href="https://www.iitr.ac.in/~EE/Bhavesh_Bhalja">Website</a>
-          </p>
-        </div>
-        <br />
-        <div className={styles.profile_card}>
-          <img
-            src={moreToCome}
-            alt="More to Come.."
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
-          />
-        </div>
+        {invitedSpeakers.map((speaker, index) => (
+          <InvitedSpeakerCard key={index} {...speaker} />
+        ))}
       </div>
     </div>
   );
