@@ -30,9 +30,9 @@ const HomePage = () => {
         </div>
       </section>
       <div className="flex justify-center items-center my-8">
-        <span className="text-blue-500">***</span>
-        <div className="border-t-4 border-blue-500 w-1/4 mx-4"></div>
-        <span className="text-blue-500">***</span>
+        <span className="text-blue-500">* * * * *</span>
+        <div className="border-t-4 border-blue-500 w-2/3 mx-4"></div>
+        <span className="text-blue-500">* * * * *</span>
       </div>
 
       {/* Invitation Section */}
@@ -97,9 +97,9 @@ const HomePage = () => {
         </div>
       </section>
       <div className="flex justify-center items-center my-8">
-        <span className="text-blue-500">***</span>
-        <div className="border-t-4 border-blue-500 w-1/4 mx-4"></div>
-        <span className="text-blue-500">***</span>
+        <span className="text-blue-500">* * * * *</span>
+        <div className="border-t-4 border-blue-500 w-2/3 mx-4"></div>
+        <span className="text-blue-500">* * * * *</span>
       </div>
 
       {/* Speakers Section */}
@@ -117,9 +117,9 @@ const HomePage = () => {
         </div>
       </section>
       <div className="flex justify-center items-center my-8">
-        <span className="text-blue-500">***</span>
-        <div className="border-t-4 border-blue-500 w-1/4 mx-4"></div>
-        <span className="text-blue-500">***</span>
+        <span className="text-blue-500">* * * * *</span>
+        <div className="border-t-4 border-blue-500 w-2/3 mx-4"></div>
+        <span className="text-blue-500">* * * * *</span>
       </div>
 
       {/* Sponsors Section */}
