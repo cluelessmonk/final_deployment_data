@@ -1,106 +1,140 @@
-import styles from "../styles/HomePage.module.css"; // Import CSS module
-import { Link } from "react-router-dom";
+import React from "react";
+import Carousel from "../components/DataPage/Datapage"; // Adjust the import path according to your project structure
+import img1 from "../images/biotechhome1.jpg";
+import img2 from "../images/biotechhome2.webp";
 
-function Homepage() {
+const HomePage = () => {
   return (
-    <div className={styles["home-page"]}>
-      <div className={styles["moving-component"]}>
-        <div className={styles["text-container"]}>
-          <span className={styles["paper-deadline"]}>
-            Paper Deadline: April 5 2024
-          </span>
-          <span className={styles["special-session"]}>
-            Checkout out the Accepted Special Session for{" "}
-            <Link
-              to="/special_session"
-              className="text-blue-500 hover:underline"
-            >
-              {" "}
-              AN INTERNATIONAL CONFERENCE{" "}
-            </Link>
-          </span>
+    <div className="min-h-screen flex flex-col font-body">
+      {/* Home Section */}
+      <section
+        id="home"
+        className="bg-yellow-100 text-gray-800 text-center py-20"
+      >
+        <h1 className="text-4xl font-bold font-heading">HOME</h1>
+        <h2 className="text-4xl font-bold mt-4 font-heading">ADT-2024</h2>
+        <p className="text-3xl font-bold mt-4 font-subheading">
+          An International Conference on Advancements in Diagnostic
+          Technologies: Global Healthcare Monitoring
+        </p>
+        <p className="text-xl mt-4">
+          Organized by: Department of Biotechnology, Motilal Nehru National
+          Institute of Technology (MNNIT) Allahabad, Prayagraj 211004 India
+        </p>
+        <p className="text-xl mt-4">
+          5-7 September 2024, MNNIT Allahabad, Prayagraj, India
+        </p>
+        <div className="flex flex-col items-center mt-8">
+          <img src={img1} alt="Image 1" className="w-1/2 h-auto mb-4" />
+          <img src={img2} alt="Image 2" className="w-1/2 h-auto" />
         </div>
-      </div>{" "}
-      {/* Apply home-page class from the CSS module */}
-      <header className={styles.header1}>
-        {" "}
-        {/* Apply header1 class from the CSS module */}
-        <h1 className={styles.title}>AN INTERNATIONAL CONFERENCE</h1>{" "}
-        {/* Apply title class from the CSS module */}
-        <h2 className={styles.subtitle}>ON</h2>{" "}
-        {/* Apply subtitle class from the CSS module */}
-        <h1 className={styles["main-title"]}>
-          {" "}
-          {/* Apply main-title class from the CSS module */}
-          <strong>
-            Advancements in Diagnostic Technologies: Global Healthcare
-            Monitoring
-          </strong>
-        </h1>
-        <p className={styles.date}>November 15-17, 2024</p>{" "}
-        {/* Apply date class from the CSS module */}
-      </header>
-      <section className={styles.scope}>
-        {" "}
-        {/* Apply scope class from the CSS module */}
-        <h2 className={styles["section-title"]}>
-          Scope of the Conference
-        </h2>{" "}
-        {/* Apply section-title class from the CSS module */}
-        <p className={styles["scope-description"]}>
-          {" "}
-          {/* Apply scope-description class from the CSS module */}
-          Diagnostic technology offers immense potential for innovating newer
-          tools in healthcare monitoring. This technology lies at the
-          intersection of biotechnology, information technology, and
-          electronics. Increasing advancements in these branches of science are
-          expected to transform the site of care and configuration of health
-          care monitoring. Therefore, the conference intends to bring together
-          the experts working around the globe in diverse fields towards
-          improvised healthcare system. The scope of the conference covers
-          various biomarkers, sensing technologies, platforms, miniaturized
-          devices, sensitive signal readers, artificial intelligence and machine
-          learning methods being developed or used for global healthcare system.
-        </p>
-        <p className={styles["scope-description"]}>
-          {" "}
-          {/* Apply scope-description class from the CSS module */}
-          This conference holds relevance and becomes significant in light of
-          the increasing demand and importance of sensing technology towards
-          improving health care faciimport HomePage from './Homepage'; lities.
-          Through various scientific sessions, the contributions of the various
-          branches of science and technology in developing new generation
-          sensing devices to address the emerging healthcare challenges and the
-          needs associated with them would be discussed.
-        </p>
-        <h3 className={styles["section-subtitle"]}>Themes</h3>{" "}
-        {/* Apply section-subtitle class from the CSS module */}
-        <ul className={styles["theme-list"]}>
-          {" "}
-          {/* Apply theme-list class from the CSS module */}
-          <li className={styles["theme-item"]}>Biomarkers discovery</li>{" "}
-          {/* Apply theme-item class from the CSS module */}
-          <li className={styles["theme-item"]}>
-            {" "}
-            {/* Apply theme-item class from the CSS module */}
-            Nanotechnology in diagnostic applications
-          </li>
-          {/* Repeat similar structure for other list items */}
-          <li className={styles["theme-item"]}>Omics technology as new dimension in disease
-          diagnosis</li>{" "}
-          <li className={styles["theme-item"]}>Advancements in cancer diagnostics</li>{" "}
-          <li className={styles["theme-item"]}>Development of liquid biopsy-based assays</li>{" "}
-          <li className={styles["theme-item"]}>Point of care and affordable diagnostics</li>{" "}
-          <li className={styles["theme-item"]}>Miniaturization and automation of diagnostic
-          methods</li>{" "}
-          <li className={styles["theme-item"]}>Precision medicine and digital health</li>{" "}
-          <li className={styles["theme-item"]}>Impact and use of AI and ML in diagnostics</li>{" "}
-          <li className={styles["theme-item"]}>Advanced imaging techniques for diagnostics</li>{" "}
+      </section>
+      <div className="flex justify-center items-center my-8">
+        <span className="text-blue-500">***</span>
+        <div className="border-t-4 border-blue-500 w-1/4 mx-4"></div>
+        <span className="text-blue-500">***</span>
+      </div>
 
-        </ul>
+      {/* Invitation Section */}
+      <section
+        id="invitation"
+        className="py-20 px-4 bg-yellow-100 text-gray-800"
+      >
+        <div className="max-w-4xl mx-auto relative p-8 border-l-2 border-r-2 border-gray-400">
+          <h2 className="text-3xl font-bold text-center font-heading">
+            INVITATION
+          </h2>
+          <p className="mt-6 font-invitation text-2xl">
+            Dear Friends and Colleagues,
+          </p>
+          <p className="mt-4 font-invitation text-2xl">
+            On behalf of the Organizing Committee, we cordially invite you to
+            join us for the ADT-2024: An International Conference on
+            Advancements in Diagnostic Technologies: Global Healthcare
+            Monitoring, to be held between 5-7 September 2024, at MNNIT
+            Allahabad, Prayagraj, India. MNNIT Allahabad, located in the city of
+            Prayagraj, is one of India's premier engineering institutions, known
+            for its commitment to excellence in academic and research pursuits.
+          </p>
+          <p className="mt-4 font-invitation text-2xl">
+            The main theme of this conference is to highlight the latest
+            advancements in diagnostic technologies and their impact on global
+            healthcare monitoring. The conference will cover a broad range of
+            topics including nanotechnology, omics technology, cancer
+            diagnostics, liquid biopsy-based assays, point of care diagnostics,
+            miniaturization and automation of diagnostic methods, precision
+            medicine, digital health, and the impact of AI and ML in
+            diagnostics.
+          </p>
+          <p className="mt-4 font-invitation text-2xl">
+            We aim to bring together leading scientists, researchers, and
+            industry experts from around the world to discuss innovative ideas
+            and developments in the field of diagnostic technologies. The
+            conference will feature plenary sessions, keynote speeches,
+            contributed talks, and poster presentations, providing ample
+            opportunities for networking and collaboration.
+          </p>
+          <p className="mt-4 font-invitation text-2xl">
+            Prayagraj, historically known as Allahabad, is a vibrant city with a
+            rich cultural and historical heritage. It is situated at the
+            confluence of the Ganges, Yamuna, and Sarasvati rivers, and is known
+            for the Kumbh Mela, the largest religious gathering in the world.
+            The city offers a unique blend of ancient traditions and modern
+            developments, making it an ideal location for this prestigious
+            conference.
+          </p>
+          <p className="mt-4 font-invitation text-2xl">
+            We look forward to your participation in ADT-2024 and to welcoming
+            you to MNNIT Allahabad and the beautiful city of Prayagraj. Stay
+            tuned for more updates on the conference program and other details.
+            To keep up-to-date with the conference, please bookmark the website:
+            www.biosensor2024.com
+          </p>
+          <p className="mt-4 font-invitation text-2xl">Yours Sincerely,</p>
+          <p className="mt-4 font-invitation text-2xl">
+            Organizing Committee ADT-2024
+          </p>
+        </div>
+      </section>
+      <div className="flex justify-center items-center my-8">
+        <span className="text-blue-500">***</span>
+        <div className="border-t-4 border-blue-500 w-1/4 mx-4"></div>
+        <span className="text-blue-500">***</span>
+      </div>
+
+      {/* Speakers Section */}
+      <section id="speakers" className="py-20 px-4 bg-yellow-100 text-gray-800">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-center font-heading">
+            SPEAKERS
+          </h2>
+          <p className="mt-6 text-center font-body">
+            We are grateful to all speakers for their support.
+          </p>
+          <div className="mt-8">
+            <Carousel />
+          </div>
+        </div>
+      </section>
+      <div className="flex justify-center items-center my-8">
+        <span className="text-blue-500">***</span>
+        <div className="border-t-4 border-blue-500 w-1/4 mx-4"></div>
+        <span className="text-blue-500">***</span>
+      </div>
+
+      {/* Sponsors Section */}
+      <section id="sponsors" className="py-20 px-4 bg-yellow-100 text-gray-800">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-center font-heading">
+            SPONSORS
+          </h2>
+          <p className="mt-6 text-center font-body">
+            We are grateful to all sponsors for their support.
+          </p>
+        </div>
       </section>
     </div>
   );
-}
+};
 
-export default Homepage;
+export default HomePage;

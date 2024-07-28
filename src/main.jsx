@@ -17,7 +17,14 @@ import ConferenceInfo from "./pages/ConferenceInfo";
 import FeeStructure from "./pages/FeeStructure";
 import SubmitYourPaper from "./pages/SubmitYourPaper";
 import ContactUs from "./pages/ContactUs";
-import CallforPapers from "./pages/CallforPapers";
+import Programme from "./pages/Programme";
+import AboutDepartment from "./pages/AboutDepartment";
+import AboutInstitute from "./pages/AboutInstitute";
+import Topics from "./pages/Topics";
+import HowToReach from "./pages/Howtoreach";
+import Accommodation from "./pages/Accomodation";
+import Registration from "./pages/Registration";
+
 import App from "./App";
 
 const router = createBrowserRouter([
@@ -71,8 +78,32 @@ const router = createBrowserRouter([
         element: <ContactUs />,
       },
       {
-        path: "call_for_papers",
-        element: <CallforPapers />,
+        path: "programme",
+        element: <Programme />,
+      },
+      {
+        path: "about_department",
+        element: <AboutDepartment />,
+      },
+      {
+        path: "about_institute",
+        element: <AboutInstitute />,
+      },
+      {
+        path: "topics",
+        element: <Topics />,
+      },
+      {
+        path: "how_to_reach",
+        element: <HowToReach />,
+      },
+      {
+        path: "accomodation",
+        element: <Accommodation />,
+      },
+      {
+        path: "registration",
+        element: <Registration />,
       },
     ],
   },
