@@ -22,11 +22,19 @@ const HomePage = () => {
           Institute of Technology (MNNIT) Allahabad, Prayagraj 211004 India
         </p>
         <p className="text-xl mt-4">
-          5-7 September 2024, MNNIT Allahabad, Prayagraj, India
+          15-17 November 2024, MNNIT Allahabad, Prayagraj, India
         </p>
         <div className="flex flex-col items-center mt-8">
-          <img src={img1} alt="Image 1" className="w-1/2 h-auto mb-4" />
-          <img src={img2} alt="Image 2" className="w-1/2 h-auto" />
+          <img
+            src={img1}
+            alt="Image 1"
+            className="w-1/2 h-auto mb-10 border-gray-300 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:brightness-75"
+          />
+          <img
+            src={img2}
+            alt="Image 2"
+            className="w-1/2 h-auto  border-gray-300 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:brightness-75"
+          />
         </div>
       </section>
       <div className="flex justify-center items-center my-8">
@@ -48,51 +56,45 @@ const HomePage = () => {
             Dear Friends and Colleagues,
           </p>
           <p className="mt-4 font-invitation text-2xl">
-            On behalf of the Organizing Committee, we cordially invite you to
-            join us for the ADT-2024: An International Conference on
-            Advancements in Diagnostic Technologies: Global Healthcare
-            Monitoring, to be held between 5-7 September 2024, at MNNIT
-            Allahabad, Prayagraj, India. MNNIT Allahabad, located in the city of
-            Prayagraj, is one of India's premier engineering institutions, known
-            for its commitment to excellence in academic and research pursuits.
+            We are delighted to invite you to attend ADT-2024: An International
+            Conference on Advancements in Diagnostic Technologies: Global
+            Healthcare Monitoring, scheduled to be held from November 15-17,
+            2024. This prestigious event will be organized by the Department of
+            Biotechnology at Motilal Nehru National Institute of Technology
+            (MNNIT) Allahabad, Prayagraj, India.
           </p>
           <p className="mt-4 font-invitation text-2xl">
-            The main theme of this conference is to highlight the latest
-            advancements in diagnostic technologies and their impact on global
-            healthcare monitoring. The conference will cover a broad range of
-            topics including nanotechnology, omics technology, cancer
-            diagnostics, liquid biopsy-based assays, point of care diagnostics,
-            miniaturization and automation of diagnostic methods, precision
-            medicine, digital health, and the impact of AI and ML in
-            diagnostics.
+            ADT-2024 aims to bring together leading academic scientists,
+            researchers, and scholars to exchange and share their experiences
+            and research results on all aspects of Diagnostic Technologies and
+            Healthcare Monitoring. It also provides a premier interdisciplinary
+            platform for researchers, practitioners, and educators to present
+            and discuss the most recent innovations, trends, and concerns, as
+            well as practical challenges encountered and solutions adopted in
+            the fields of Diagnostic Technologies and Global Healthcare
+            Monitoring.
           </p>
           <p className="mt-4 font-invitation text-2xl">
-            We aim to bring together leading scientists, researchers, and
-            industry experts from around the world to discuss innovative ideas
-            and developments in the field of diagnostic technologies. The
-            conference will feature plenary sessions, keynote speeches,
-            contributed talks, and poster presentations, providing ample
-            opportunities for networking and collaboration.
+            We would be honored to have you participate in this event, where you
+            will have the opportunity to network with peers, gain insights from
+            esteemed keynote speakers, and contribute to discussions that shape
+            the future of diagnostic technologies.
           </p>
           <p className="mt-4 font-invitation text-2xl">
-            Prayagraj, historically known as Allahabad, is a vibrant city with a
-            rich cultural and historical heritage. It is situated at the
-            confluence of the Ganges, Yamuna, and Sarasvati rivers, and is known
-            for the Kumbh Mela, the largest religious gathering in the world.
-            The city offers a unique blend of ancient traditions and modern
-            developments, making it an ideal location for this prestigious
-            conference.
+            Please confirm your participation before the deadline to ensure your
+            place at the conference. For more details about the conference,
+            including registration, accommodation, and the program schedule,
+            please visit our website.
           </p>
           <p className="mt-4 font-invitation text-2xl">
-            We look forward to your participation in ADT-2024 and to welcoming
-            you to MNNIT Allahabad and the beautiful city of Prayagraj. Stay
-            tuned for more updates on the conference program and other details.
-            To keep up-to-date with the conference, please bookmark the website:
-            www.biosensor2024.com
+            We look forward to your participation in ADT-2024 and to a fruitful
+            and engaging conference.
           </p>
-          <p className="mt-4 font-invitation text-2xl">Yours Sincerely,</p>
+          <p className="mt-4 font-invitation text-2xl">Sincerely,</p>
+          <p className="mt-4 font-invitation text-2xl">Organizing Secretary,</p>
           <p className="mt-4 font-invitation text-2xl">
-            Organizing Committee ADT-2024
+            Department of Biotechnology, Motilal Nehru National Institute of
+            Technology (MNNIT) Allahabad Prayagraj - 211004, India
           </p>
         </div>
       </section>

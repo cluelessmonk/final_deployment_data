@@ -130,7 +130,7 @@ const Committee = () => {
                 <div key={index} className="p-2">
                   {" "}
                   {/* Reduced padding for less gap */}
-                  <div className="bg-light-yellow bg-opacity-50 rounded-lg shadow-lg flex flex-col items-center justify-center p-6 transform transition-transform duration-300 hover:scale-105 w-72 h-96">
+                  <div className="bg-light-yellow bg-opacity-50 rounded-lg shadow-lg flex flex-col items-center justify-center p-6 transform transition-transform duration-300  hover:brightness-125 hover:scale-105 w-72 h-96">
                     <img
                       src={member.image}
                       alt={member.name}

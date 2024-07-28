@@ -1,12 +1,41 @@
-import banner from "../images/adt_banner.png";
+import React from "react";
+import banner from "../images/bannerimagefinal.jpg";
+import institutionLogo from "../images/mnnitlogo.png"; // Replace with the actual path to your institution logo
+import conferenceLogo from "../images/confrencelogo.png"; // Replace with the actual path to your conference logo
 function Header() {
   return (
-    <div className=" w-full h-50 border border-black mb-2">
+    <div className="relative w-full h-[75vh] mb-4">
+      <div className="absolute inset-0  opacity-50 z-10"></div>
       <img
         src={banner}
-        alt="Your Image"
+        alt="Banner Background"
         className="w-full h-full object-cover"
+        style={{ width: "200%" }}
       />
+      <div className="absolute inset-0 flex items-center justify-between p-8 z-20">
+        <img
+          src={institutionLogo}
+          alt="Institution Logo"
+          className="h-48 md:h-64"
+        />
+        <div className="text-center text-white">
+          <h1 className="text-7xl font-bold">ADT-2024</h1>
+          <h1 className="text-6xl font-bold mt-2">
+            Advancements in Diagnostic Technologies
+          </h1>
+          <h2 className="text-4xl mt-2">Global Healthcare Monitoring</h2>
+          <h3 className="text-3xl mt-4">Organized By</h3>
+          <h4 className="text-2xl mt-2">Department of Biotechnology</h4>
+          <h4 className="text-2xl">
+            Motilal Nehru National Institute of Technology, Allahabad, India
+          </h4>
+        </div>
+        <img
+          src={conferenceLogo}
+          alt="Conference Logo"
+          className="h-48 md:h-64"
+        />
+      </div>
     </div>
   );
 }

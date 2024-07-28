@@ -3,8 +3,10 @@ import Footer from "./components/Footer";
 import { Outlet } from "react-router-dom";
 import SideBarMenu from "./components/SidebarMenu";
 import FloatingHeader from "./components/FloatingHeader";
-
+import ScrollToTopButton from "./components/Scroller";
+import useScrollToTop from "./components/ScrollToTop";
 function Layout() {
+  useScrollToTop();
   return (
     <div className="flex flex-col min-h-screen bg-yellow-100 p-2">
       <FloatingHeader />
@@ -13,6 +15,7 @@ function Layout() {
       <div id="sidebar">
         <SideBarMenu />
       </div>
+      <ScrollToTopButton />
       <Footer />
     </div>
   );

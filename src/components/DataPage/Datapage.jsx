@@ -59,12 +59,12 @@ const Carousel = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-full bg-yellow-100 py-10">
+    <div className="flex flex-col items-center justify-center h-full bg-yellow-100 py-10 ">
       <div className="w-full max-w-6xl">
         <Slider {...settings}>
           {speakers.map((speaker, index) => (
             <div key={index} className="p-6">
-              <div className="bg-sky-100 rounded-lg shadow-lg flex flex-col items-center justify-center p-8 transform transition-transform duration-300 hover:scale-105 h-96 w-72">
+              <div className="bg-sky-100 rounded-lg shadow-lg flex flex-col items-center justify-center p-8  h-96 w-72 transform transition-transform duration-300 hover:scale-105 hover:brightness-125">
                 <img
                   src={speaker.img}
                   alt={speaker.name}
