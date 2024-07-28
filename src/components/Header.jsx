@@ -5,7 +5,7 @@ import conferenceLogo from "../images/confrencelogo.png"; // Replace with the ac
 function Header() {
   return (
     <div className="relative w-full h-[75vh] mb-4">
-      <div className="absolute inset-0  opacity-50 z-10"></div>
+      <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
       <img
         src={banner}
         alt="Banner Background"
