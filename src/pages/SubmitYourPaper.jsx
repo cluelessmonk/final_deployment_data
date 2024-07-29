@@ -40,7 +40,7 @@ function ConferenceDetails() {
               Registration Opening
             </td>
             <td className="border border-black px-4 py-2">
-              15<sup>th</sup> May 2024
+              1<sup>st</sup> August 2024
             </td>
           </tr>
           <tr>
@@ -48,7 +48,7 @@ function ConferenceDetails() {
               Abstract Submission Deadline
             </td>
             <td className="border border-black px-4 py-2">
-              15<sup>th</sup> Aug 2024
+              30<sup>th</sup> September 2024
             </td>
           </tr>
           <tr>
@@ -56,7 +56,7 @@ function ConferenceDetails() {
               Acceptance and Notification
             </td>
             <td className="border border-black px-4 py-2">
-              15<sup>th</sup> Oct 2024
+              15<sup>th</sup> October 2024
             </td>
           </tr>
           <tr>
@@ -64,7 +64,7 @@ function ConferenceDetails() {
               Early Bird Registration
             </td>
             <td className="border border-black px-4 py-2">
-              15<sup>th</sup> Aug 2024
+              30<sup>th</sup> September 2024
             </td>
           </tr>
         </tbody>

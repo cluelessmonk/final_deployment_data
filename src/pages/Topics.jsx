@@ -2,23 +2,8 @@ const Topics = () => {
   return (
     <div className="px-6 py-10 max-w-5xl mx-auto font-sans">
       <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
-        Conference Themes and Scope
+        Conference Scopes and Themes
       </h1>
-      <div className="mb-8">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Themes</h2>
-        <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed">
-          <li>Biomarkers discovery</li>
-          <li>Nanotechnology in diagnostic applications</li>
-          <li>Omics technology as new dimension in disease diagnosis</li>
-          <li>Advancements in cancer diagnostics</li>
-          <li>Development of liquid biopsy-based assays</li>
-          <li>Point of care and affordable diagnostics</li>
-          <li>Miniaturization and automation of diagnostic methods</li>
-          <li>Precision medicine and digital health</li>
-          <li>Impact and use of AI and ML in diagnostics</li>
-          <li>Advanced imaging techniques for diagnostics</li>
-        </ul>
-      </div>
       <div>
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">
           Scope of the Conference
@@ -44,6 +29,21 @@ const Topics = () => {
           discussed. The broad areas covered in this program includes but not
           limited to:
         </p>
+      </div>
+      <div className="mt-8">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Themes</h2>
+        <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed">
+          <li>Biomarkers discovery</li>
+          <li>Nanotechnology in diagnostic applications</li>
+          <li>Omics technology as new dimension in disease diagnosis</li>
+          <li>Advancements in cancer diagnostics</li>
+          <li>Development of liquid biopsy-based assays</li>
+          <li>Point of care and affordable diagnostics</li>
+          <li>Miniaturization and automation of diagnostic methods</li>
+          <li>Precision medicine and digital health</li>
+          <li>Impact and use of AI and ML in diagnostics</li>
+          <li>Advanced imaging techniques for diagnostics</li>
+        </ul>
       </div>
     </div>
   );

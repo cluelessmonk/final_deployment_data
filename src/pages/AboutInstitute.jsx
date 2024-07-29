@@ -2,7 +2,7 @@ import React from "react";
 import mnnitImage from "../images/academicmnnit.jpg"; // Adjust the import path according to your project structure
 import anandBhawanImage from "../images/anandbhawan.jpg"; // Adjust the import path according to your project structure
 import sangamImage from "../images/sangam.jpg"; // Adjust the import path according to your project structure
-
+import weather from "../images/weather.jpg";
 const AboutInstitute = () => {
   return (
     <div className="px-6 py-10 max-w-3xl mx-auto font-sans">
@@ -100,6 +100,34 @@ const AboutInstitute = () => {
         making it an ideal place for educational institutions like MNNIT to
         thrive. Prayagraj's unique blend of history, culture, and progress
         provides a stimulating environment for learning and growth.
+      </p>
+
+      {/* Separator */}
+      <div className="flex justify-center items-center my-8">
+        <span className="text-blue-500">* * * * *</span>
+        <div className="border-t-4 border-blue-500 w-2/3 mx-4"></div>
+        <span className="text-blue-500">* * * * *</span>
+      </div>
+      {/* weather Image */}
+      <div className="relative flex justify-center mb-6">
+        <img
+          src={weather}
+          alt="weather"
+          className="w-full h-96 border-4 border-gray-300 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:brightness-75"
+        />
+        <span className="absolute bottom-2 left-2 text-white text-lg font-bold">
+          Prayagraj weather
+        </span>
+      </div>
+
+      {/* About Prayagraj weather */}
+      <h2 className="text-2xl font-bold text-gray-800 mb-4">
+        Weather conditions
+      </h2>
+      <p className="text-lg leading-relaxed text-gray-700 text-justify mb-4">
+        The month of November marks the onset of winters in North India. The
+        average temperature in Allahabad in November is fairly pleasant ranging
+        from 20-25℃.
       </p>
     </div>
   );

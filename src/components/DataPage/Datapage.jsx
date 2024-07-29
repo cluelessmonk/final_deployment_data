@@ -8,6 +8,20 @@ import p3 from "../../images/Picture3.jpg";
 import p4 from "../../images/Picture4.jpg";
 import p5 from "../../images/Picture5.jpg";
 import p6 from "../../images/Picture6.jpg";
+import astha from "../../images/aasthamishra.jpg";
+import anandk from "../../images/anandkumar.png";
+import ashok from "../../images/ashokkumar.jpg";
+import gopinath from "../../images/gopinath.jpg";
+import gorachand from "../../images/gorachanddatta.png";
+import kanhaia from "../../images/kanhaiasingh.jpg";
+import mohdkush from "../../images/mohdkushman.png";
+import pranjal from "../../images/pranjalchandra.jpg";
+import prasoon from "../../images/prasoonkumar.jpg";
+import satheesh from "../../images/satheeshbabu.jpg";
+import sidgosh from "../../images/sidsgosh.jpg";
+import tarun from "../../images/tarunsharma.jpg";
+import zineb from "../../images/zineb.png";
+import saurabh from "../../images/saurabh.jpg";
 
 const speakers = [
   {
@@ -43,6 +57,76 @@ const speakers = [
     img: p6,
     name: "Dr. Arindam Chakraborty",
     institution: "Enzene Biosciences, Pune",
+  },
+  {
+    img: sidgosh,
+    name: "Prof. Siddharth S Gosh",
+    institution: "IIT Guwahati",
+  },
+  {
+    img: satheesh,
+    name: "Prof. Sateesh Babu",
+    institution: "Amrita University, Coimbatore",
+  },
+  {
+    img: gopinath,
+    name: "Prof. Subhash Chandra Bose Gopinath",
+    institution: "UNIMAP, Malaysia",
+  },
+  {
+    img: ashok,
+    name: "Prof. Ashok Sharma",
+    institution: "AIIMS Delhi",
+  },
+  {
+    img: mohdkush,
+    name: "Dr. Mohd. Khushman",
+    institution: "Washington University, St. Louis, USA",
+  },
+  {
+    img: kanhaia,
+    name: "Dr. Kanhiya Singh",
+    institution: "PITsburg University",
+  },
+  {
+    img: pranjal,
+    name: "Dr. Pranjal Chandra",
+    institution: "IIT BHU",
+  },
+  {
+    img: gorachand,
+    name: "Dr. Gorachand Dutta",
+    institution: "IIT KGP",
+  },
+  {
+    img: tarun,
+    name: "Dr. Tarun Kumar Sharma",
+    institution: "Ahmedabad",
+  },
+  {
+    img: saurabh,
+    name: "Dr. Saurabh Kumar",
+    institution: "NIPER Guwahati",
+  },
+  {
+    img: zineb,
+    name: "Dr. Zineb Qmichou",
+    institution: "MASCair Morocco",
+  },
+  {
+    img: astha,
+    name: "Dr. Aastha Mishra",
+    institution: "IGIB, New Delhi",
+  },
+  {
+    img: prasoon,
+    name: "Dr. Prasoon Kumar",
+    institution: "NIT Rourkela",
+  },
+  {
+    img: anandk,
+    name: "Dr. Anand Kumar M",
+    institution: "NIT Surathkal",
   },
 ];
 

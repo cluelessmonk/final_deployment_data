@@ -29,7 +29,8 @@ function Header() {
           <h3 className="text-3xl mt-4">Organized By</h3>
           <h4 className="text-2xl mt-2">Department of Biotechnology</h4>
           <h4 className="text-2xl">
-            Motilal Nehru National Institute of Technology, Allahabad, India
+            Motilal Nehru National Institute of Technology Allahabad, Prayagraj
+            , India
           </h4>
         </div>
         <img

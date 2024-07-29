@@ -33,14 +33,27 @@ const Accommodation = () => {
       <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
         Accommodation
       </h1>
+
+      <p className="text-lg leading-relaxed text-gray-700 text-justify mb-4">
+        <strong>For Delegates:</strong> Accommodation to the delegates will be
+        provided at Institute guest house/hotels in the city. The local travel,
+        food and refreshments will be managed by the conference secretariat.
+      </p>
+      <p className="text-lg leading-relaxed text-gray-700 text-justify mb-4">
+        <strong>For participants:</strong> Accommodations for conference
+        participants will be provided on a first-come, first-served basis,
+        contingent upon availability. Early registration is highly encouraged to
+        secure lodging, as spaces are limited and will be allocated in the order
+        registrations are received.
+      </p>
+      <p className="text-lg leading-relaxed text-gray-700 text-justify mb-8">
+        The accommodations to the participants will be provided in institute
+        guest house, guest rooms of the boys’ and Girls’ hostels of MNNITA as
+        per availability. Food and refreshments during the event will be managed
+        by the conference secretariat.
+      </p>
       <p className="text-lg leading-relaxed text-gray-700 text-justify">
-        Accommodations for conference participants will be provided on a
-        first-come, first-served basis, contingent upon availability. Early
-        registration is highly encouraged to secure lodging, as spaces are
-        limited and will be allocated in the order registrations are received.
-        Please note that while we strive to meet the needs of all attendees,
-        accommodations are dependent on the current capacity. We appreciate your
-        understanding and cooperation in this matter.
+        We appreciate your understanding and cooperation in this matter.
       </p>
     </div>
   );
