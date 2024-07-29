@@ -14,7 +14,7 @@ function ConferenceDetails() {
       <h1 className="text-center text-blue-600 text-lg font-bold">
         <span className="animate-blink">
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSd8yO78o3wdRUeCO5bw9IPa90mkjDlXJJ5twAiYq8hF9nH1bg/viewform?usp=sf_link"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSere_dPHgaJORFS7X9mnDbiBnE9IQz9TSTG37yhMwRLa5pRxw/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link"
             target="_blank"
             className="hover:underline"
           >

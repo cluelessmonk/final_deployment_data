@@ -22,15 +22,6 @@ const Committee = () => {
       experience: "25 years in Biotechnology",
       image: director,
     },
-    {
-      role: "Treasurer",
-      name: "Dr. Joybrata Mal",
-      department: "Department of Biotechnology",
-      college: "MNNIT Allahabad",
-      email: "joybrata.mal@mnnit.ac.in",
-      experience: "18 years in Biotechnology",
-      image: joybrata,
-    },
   ];
 
   const organizingSecretaries = [
@@ -47,6 +38,15 @@ const Committee = () => {
       college: "MNNIT Allahabad",
       role: "Organizing Secretary",
       image: seema,
+    },
+    {
+      role: "Treasurer",
+      name: "Dr. Joybrata Mal",
+      department: "Department of Biotechnology",
+      college: "MNNIT Allahabad",
+      email: "joybrata.mal@mnnit.ac.in",
+      experience: "18 years in Biotechnology",
+      image: joybrata,
     },
   ];
 
