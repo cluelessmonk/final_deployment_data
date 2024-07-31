@@ -1,7 +1,30 @@
 import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Carousel from "../components/DataPage/Datapage"; // Adjust the import path according to your project structure
 import img1 from "../images/home1.jpeg";
 import img2 from "../images/home2.jpeg";
+import sponsor1 from "../images/sponsor1.jpeg"; // Department of Biotechnology India
+import sponsor2 from "../images/sponsor2.jpeg"; // Department of Science and Technology India
+import sponsor3 from "../images/sponsor3.jpeg"; // Council of Science and Technology UP
+
+const sponsors = [
+  { img: sponsor1, name: "Department of Biotechnology India" },
+  { img: sponsor2, name: "Department of Science and Technology India" },
+  { img: sponsor3, name: "Council of Science and Technology UP" },
+];
+
+const sponsorSettings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  pauseOnHover: true,
+};
 
 const HomePage = () => {
   return (
@@ -24,11 +47,10 @@ const HomePage = () => {
             alt="Image 1"
             className="w-1/2 h-auto mb-10 border-gray-300 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:brightness-75"
           />
-
           <img
             src={img2}
             alt="Image 2"
-            className="w-1/2 h-auto  border-gray-300 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:brightness-75"
+            className="w-1/2 h-auto border-gray-300 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:brightness-75"
           />
         </div>
         <div>Source: Google Stack Images</div>
@@ -130,6 +152,24 @@ const HomePage = () => {
           <p className="mt-6 text-center font-body">
             We are grateful to all sponsors for their support.
           </p>
+          <div className="mt-8">
+            <Slider {...sponsorSettings}>
+              {sponsors.map((sponsor, index) => (
+                <div key={index} className="p-2">
+                  <div className="bg-light-yellow bg-opacity-50 rounded-lg shadow-lg flex flex-col items-center justify-center p-6 transform transition-transform duration-300 hover:scale-105 hover:brightness-125 w-full h-96">
+                    <img
+                      src={sponsor.img}
+                      alt={sponsor.name}
+                      className="w-full h-full object-contain mb-4"
+                    />
+                    <h2 className="text-2xl font-semibold text-center">
+                      {sponsor.name}
+                    </h2>
+                  </div>
+                </div>
+              ))}
+            </Slider>
+          </div>
         </div>
       </section>
     </div>
