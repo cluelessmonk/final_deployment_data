@@ -1,5 +1,5 @@
 import React from "react";
-import mnnitImage from "../images/academicmnnit.jpg"; // Adjust the import path according to your project structure
+import mnnitImage from "../images/mnnitfront.jpg"; // Adjust the import path according to your project structure
 import anandBhawanImage from "../images/anandbhawan.jpg"; // Adjust the import path according to your project structure
 import sangamImage from "../images/sangam.jpg"; // Adjust the import path according to your project structure
 import weather from "../images/weather.jpg";

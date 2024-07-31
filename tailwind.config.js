@@ -18,8 +18,8 @@ export default {
         },
       },
       animation: {
-        gradient: "gradient 9s ease infinite",
-        billboard: "billboard 5s linear infinite",
+        gradient: "gradient 15s ease infinite",
+        billboard: "billboard 15s linear infinite",
       },
       colors: {
         "light-yellow": "#eca63b",

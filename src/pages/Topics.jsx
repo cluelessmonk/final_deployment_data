@@ -2,7 +2,7 @@ const Topics = () => {
   return (
     <div className="px-6 py-10 max-w-5xl mx-auto font-sans">
       <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
-        Conference Scopes and Themes
+        Conference Scope and Themes
       </h1>
       <div>
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">

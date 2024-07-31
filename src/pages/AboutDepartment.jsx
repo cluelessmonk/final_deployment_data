@@ -1,5 +1,5 @@
 import React from "react";
-import biotechImage from "../images/biotech.jpeg"; // Adjust the import path according to your project structure
+import biotechImage from "../images/biotechdep2.jpg"; // Adjust the import path according to your project structure
 
 const AboutDepartment = () => {
   return (
@@ -12,7 +12,7 @@ const AboutDepartment = () => {
           className="w-full h-auto border-4 border-gray-300 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:brightness-75"
         />
         <span className="absolute bottom-2 left-2 text-white text-lg font-bold">
-          MNNIT Allahabad
+          Department of Biotechnology MNNIT
         </span>
       </div>
 

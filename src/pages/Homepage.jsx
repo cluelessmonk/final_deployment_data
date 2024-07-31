@@ -18,11 +18,11 @@ const sponsors = [
 const sponsorSettings = {
   dots: true,
   infinite: true,
-  speed: 500,
+  speed: 1500,
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 3500,
   pauseOnHover: true,
 };
 
@@ -70,10 +70,10 @@ const HomePage = () => {
           <h2 className="text-3xl font-bold text-center font-heading">
             INVITATION
           </h2>
-          <p className="mt-6 font-invitation text-2xl">
+          <p className="mt-6 font-invitation text-2xl text-justify">
             Dear Friends and Colleagues,
           </p>
-          <p className="mt-4 font-invitation text-2xl">
+          <p className="mt-4 font-invitation text-2xl text-justify">
             We are delighted to invite you to attend ADT-2024: An International
             Conference on Advancements in Diagnostic Technologies: Global
             Healthcare Monitoring, scheduled to be held from November 15-17,
@@ -81,7 +81,7 @@ const HomePage = () => {
             Biotechnology at Motilal Nehru National Institute of Technology
             (MNNIT) Allahabad, Prayagraj, India.
           </p>
-          <p className="mt-4 font-invitation text-2xl">
+          <p className="mt-4 font-invitation text-2xl text-justify">
             ADT-2024 aims to bring together leading academic scientists,
             researchers, and scholars to exchange and share their experiences
             and research results on all aspects of Diagnostic Technologies and
@@ -92,25 +92,29 @@ const HomePage = () => {
             the fields of Diagnostic Technologies and Global Healthcare
             Monitoring.
           </p>
-          <p className="mt-4 font-invitation text-2xl">
+          <p className="mt-4 font-invitation text-2xl text-justify">
             We would be honored to have you participate in this event, where you
             will have the opportunity to network with peers, gain insights from
             esteemed keynote speakers, and contribute to discussions that shape
             the future of diagnostic technologies.
           </p>
-          <p className="mt-4 font-invitation text-2xl">
+          <p className="mt-4 font-invitation text-2xl text-justify">
             Please confirm your participation before the deadline to ensure your
             place at the conference. For more details about the conference,
             including registration, accommodation, and the program schedule,
             please visit our website.
           </p>
-          <p className="mt-4 font-invitation text-2xl">
+          <p className="mt-4 font-invitation text-2xl text-justify">
             We look forward to your participation in ADT-2024 and to a fruitful
             and engaging conference.
           </p>
-          <p className="mt-4 font-invitation text-2xl">Sincerely,</p>
-          <p className="mt-4 font-invitation text-2xl">Organizing Secretary,</p>
-          <p className="mt-4 font-invitation text-2xl">
+          <p className="mt-4 font-invitation text-2xl text-justify">
+            Sincerely,
+          </p>
+          <p className="mt-4 font-invitation text-2xl text-justify">
+            Organizing Secretary,
+          </p>
+          <p className="mt-4 font-invitation text-2xl text-justify">
             Department of Biotechnology, Motilal Nehru National Institute of
             Technology (MNNIT) Allahabad Prayagraj - 211004, India
           </p>
