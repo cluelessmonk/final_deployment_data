@@ -19,6 +19,15 @@ const FloatingHeader = () => {
     };
   }, []);
 
+  const downloadBrochure = () => {
+    const link = document.createElement("a");
+    link.href = "/BrochureFinal.pdf"; // Ensure this path is correct based on your public directory setup
+    link.download = "BrochureFinal.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
@@ -45,6 +54,12 @@ const FloatingHeader = () => {
           >
             Registration Guidelines
           </Link>
+          <button
+            onClick={() => downloadBrochure()}
+            className="text-lg font-semibold text-indigo-400 hover:text-blue-500 hover:underline"
+          >
+            ADT-2024 Brochure
+          </button>
           <button
             onClick={() =>
               document
