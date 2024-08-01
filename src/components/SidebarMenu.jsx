@@ -8,7 +8,7 @@ const topics = [
   { id: 5, title: "About Department", path: "/about_department" },
   { id: 7, title: "Topics", path: "/topics" },
   { id: 8, title: "Fee Structure", path: "/fee_structure" },
-  { id: 6, title: "Registration & guidelines", path: "/registration" },
+  { id: 6, title: "Registration guidelines", path: "/registration" },
   { id: 9, title: "Abstract Submission", path: "/submit_your_paper" },
 
   { id: 3, title: "Venue and Accomodation", path: "/accomodation" },
