@@ -22,6 +22,7 @@ import sidgosh from "../../images/sidsgosh.jpg";
 import tarun from "../../images/tarunsharma.jpg";
 import zineb from "../../images/zineb.png";
 import saurabh from "../../images/saurabh.jpg";
+import sandeep from "../../images/sandeep.jpeg";
 
 const speakers = [
   {
@@ -127,6 +128,12 @@ const speakers = [
     img: anandk,
     name: "Dr. Anand Kumar M",
     institution: "NIT Surathkal",
+  },
+  {
+    img: sandeep,
+    name: "Dr. Sandeep Vashist",
+    title: "Senior Global IVD Product Director",
+    institution: "Fapon Biotech Inc.",
   },
 ];
 
