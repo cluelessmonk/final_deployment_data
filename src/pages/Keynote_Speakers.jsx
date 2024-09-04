@@ -56,10 +56,11 @@ const invitedSpeakers = [
   { name: "Dr. Gorachand Dutta", institution: "IIT KGP" },
   { name: "Dr. Tarun Kumar Sharma", institution: "Ahmedabad" },
   { name: "Dr. Saurabh Kumar", institution: "NIPER Guwahati" },
-  { name: "Dr. Zineb Qmichou", institution: "MASCair Morocco" },
+  { name: "Dr. Zineb Qmichou", institution: "MAScIR Morocco" },
   { name: "Dr. Aastha Mishra", institution: "IGIB, New Delhi" },
   { name: "Dr. Prasoon Kumar", institution: "NIT Rourkela" },
   { name: "Dr. Anand Kumar M", institution: "NIT Surathkal" },
+  {name: "Dr. Devashish Rath",institution:"Homi Bhabha National Institute BARC, Mumbai"}
 ];
 
 const ProfileCard = ({ img, name, title, institution }) => (

@@ -23,6 +23,7 @@ import tarun from "../../images/tarunsharma.jpg";
 import zineb from "../../images/zineb.png";
 import saurabh from "../../images/saurabh.jpg";
 import sandeep from "../../images/sandeep.jpeg";
+import devashish from "../../images/Devashish_Rath.jpg";
 
 const speakers = [
   {
@@ -112,7 +113,7 @@ const speakers = [
   {
     img: zineb,
     name: "Dr. Zineb Qmichou",
-    institution: "MASCair Morocco",
+    institution: "MAScIR Morocco",
   },
   {
     img: astha,
@@ -134,6 +135,12 @@ const speakers = [
     name: "Dr. Sandeep Vashist",
     title: "Senior Global IVD Product Director",
     institution: "Fapon Biotech Inc.",
+  },
+  {
+    img: devashish,
+    name: "Dr. Devashish Rath",
+    institution: "Homi Bhabha National Institute , BARC, Mumbai",
+
   },
 ];
 
