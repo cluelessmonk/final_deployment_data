@@ -21,8 +21,8 @@ const FloatingHeader = () => {
 
   const downloadBrochure = () => {
     const link = document.createElement("a");
-    link.href = "/BrochureFinal.pdf"; // Ensure this path is correct based on your public directory setup
-    link.download = "BrochureFinal.pdf";
+    link.href = "/BrochureFinal2.pdf"; // Ensure this path is correct based on your public directory setup
+    link.download = "BrochureFinal2.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
