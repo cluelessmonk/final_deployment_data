@@ -24,11 +24,16 @@ import zineb from "../../images/zineb.png";
 import saurabh from "../../images/saurabh.jpg";
 import sandeep from "../../images/sandeep.jpeg";
 import devashish from "../../images/Devashish_Rath.jpg";
+import monica from '../../images/monicasachdeva.jpg';
+import aj from "../../images/Aj.jpg";
+import chandra from "../../images/chandrashekhar.jpg";
+import santosh from "../../images/santoshkmishra.jpg";
+
 
 const speakers = [
   {
     img: p1,
-    name: "Prof. Satish Raghvan",
+    name: "Prof. Satheesh Raghavan",
     title: "Dept. of Biochemistry",
     institution: "IISc Bangalore",
   },
@@ -71,11 +76,6 @@ const speakers = [
     institution: "Amrita University, Coimbatore",
   },
   {
-    img: gopinath,
-    name: "Prof. Subhash Chandra Bose Gopinath",
-    institution: "UNIMAP, Malaysia",
-  },
-  {
     img: ashok,
     name: "Prof. Ashok Sharma",
     institution: "AIIMS Delhi",
@@ -94,6 +94,26 @@ const speakers = [
     img: pranjal,
     name: "Dr. Pranjal Chandra",
     institution: "IIT BHU",
+  },
+  {
+    img: aj,
+    name: "Dr. Amit Jaiswal ",
+    institution: "IIT Mandi",
+  },
+  {
+    img: chandra,
+    name: "Prof. Kanduri Chandreshekhar",
+    institution: "University of Gothenburg, Sweden",
+  },
+  {
+    img: monica,
+    name: " Dr. Monika Sachdeva",
+    institution: "CDRI Lucknow, India",
+  },
+  {
+    img: santosh,
+    name: " Dr. Santosh Kumar Mishra",
+    institution: "IIT Kanpur",
   },
   {
     img: gorachand,
