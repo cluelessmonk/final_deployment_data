@@ -44,13 +44,21 @@ const Registration = () => {
           reserves the right for accepting or rejecting the abstracts.
         </li>
       </ul>
-      <div className="flex justify-center mb-20">
+      <div className="flex flex-col items-center mb-20">
         <button
           onClick={downloadFile}
-          className="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 text-xl"
+          className="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 text-xl mb-4"
         >
           Download Abstract Format
         </button>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSere_dPHgaJORFS7X9mnDbiBnE9IQz9TSTG37yhMwRLa5pRxw/viewform?vc=0&c=0&w=1&flr=0"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-3 bg-red-500 text-white rounded-lg hover:bg-red-600 text-xl text-center"
+        >
+          Register here!
+        </a>
       </div>
       <h2 className="text-3xl font-semibold text-gray-800 text-center mb-10">
         Information for Poster/Oral presentations
