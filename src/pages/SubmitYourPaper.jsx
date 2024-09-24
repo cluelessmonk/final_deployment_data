@@ -3,13 +3,16 @@ function ConferenceDetails() {
   return (
     <div className="mx-auto max-w-screen-xl px-4">
       <br />
-      {/* <h1 className="text-center text-white  text-3xl  font-semibold ">
-        Important Dates
-      </h1> */}
+
+
 
       <button className="SubmityourAbstract-button mx-auto text-3xl my-8 py-4 px-8 rounded-lg bg-blue-600 text-white text-2xl font-bold block">
         Submit Your Abstract
       </button>
+      <div className="bg-yellow-100 border-l-4 border-r-4 border-yellow-500 text-yellow-700 p-4 text-center mx-auto " role="alert">
+        <p className="font-bold">Important Notice</p>
+        <p>Kindly log in with your Gmail account to submit the application for conference registration.</p>
+      </div>
 
       <h1 className="text-center text-blue-600 text-lg font-bold">
         <span className="animate-blink">
