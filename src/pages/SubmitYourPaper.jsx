@@ -11,7 +11,7 @@ function ConferenceDetails() {
       </button>
       <div className="bg-yellow-100 border-l-4 border-r-4 border-yellow-500 text-yellow-700 p-4 text-center mx-auto " role="alert">
         <p className="font-bold">Important Notice</p>
-        <p>Kindly log in with your Gmail account to submit the application for conference registration.</p>
+        <p>Kindly Login with your Gmail account to submit the application for conference registration.</p>
       </div>
 
       <h1 className="text-center text-blue-600 text-lg font-bold">
