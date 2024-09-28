@@ -33,7 +33,7 @@ import santosh from "../../images/santoshkmishra.jpg";
 const speakers = [
   {
     img: p1,
-    name: "Prof. Satheesh Raghavan",
+    name: "Prof. Sathees C Raghavan",
     title: "Dept. of Biochemistry",
     institution: "IISc Bangalore",
   },
