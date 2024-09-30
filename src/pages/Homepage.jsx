@@ -30,6 +30,11 @@ const HomePage = () => {
   return (
     <div className="min-h-screen flex flex-col font-body">
       {/* Home Section */}
+
+      {/* Flash Message */}
+<div className="bg-red-500 text-white py-4 text-center font-bold text-3xl animate-pulse">
+        Due to high demand from many participants, the deadline has now been extended to <strong>20th October 2024</strong>
+      </div>
       <section className="bg-yellow-100 text-gray-800 text-center py-20">
         <h2 className="text-4xl font-bold mt-4 font-heading">ADT-2024</h2>
         <p className="text-3xl font-bold mt-4 font-subheading">
@@ -60,6 +65,10 @@ const HomePage = () => {
         <div className="border-t-4 border-blue-500 w-2/3 mx-4"></div>
         <span className="text-blue-500">* * * * *</span>
       </div>
+
+
+
+
 
       {/* Invitation Section */}
       <section
