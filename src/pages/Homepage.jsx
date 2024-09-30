@@ -35,6 +35,11 @@ const HomePage = () => {
 <div className="bg-red-500 text-white py-4 text-center font-bold text-3xl animate-pulse">
         Due to high demand from many participants, the deadline has now been extended to <strong>20th October 2024</strong>
       </div>
+      <div className="bg-blue-500 text-white py-4 text-center text-xl">
+  <marquee behavior="scroll" direction="left" scrollamount="10">
+  In case acceptance of abstract is required from the organizers for getting approval from the participant's institute before registration fee submission, the participants can send  the abstract at adt2024@mnnit.ac.in
+  </marquee>
+</div>
       <section className="bg-yellow-100 text-gray-800 text-center py-20">
         <h2 className="text-4xl font-bold mt-4 font-heading">ADT-2024</h2>
         <p className="text-3xl font-bold mt-4 font-subheading">
