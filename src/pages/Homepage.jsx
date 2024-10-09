@@ -8,7 +8,7 @@ import img2 from "../images/home2.jpeg";
 import sponsor1 from "../images/sponsor1.jpeg"; // Department of Biotechnology India
 import sponsor2 from "../images/sponsor2.jpeg"; // Department of Science and Technology India
 import sponsor3 from "../images/sponsor3.jpeg"; // Council of Science and Technology UP
-
+import ChiefGuestSection from "../components/Chiefguest";
 const sponsors = [
   { img: sponsor1, name: "Department of Biotechnology India" },
   { img: sponsor2, name: "Department of Science and Technology India" },
@@ -140,6 +140,10 @@ const HomePage = () => {
         <div className="border-t-4 border-blue-500 w-2/3 mx-4"></div>
         <span className="text-blue-500">* * * * *</span>
       </div>
+
+
+      {/* Chief guest section*/ }
+      <ChiefGuestSection/>
 
       {/* Speakers Section */}
       <section id="speakers" className="py-20 px-4 bg-yellow-100 text-gray-800">

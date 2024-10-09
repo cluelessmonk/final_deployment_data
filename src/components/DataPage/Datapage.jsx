@@ -28,6 +28,7 @@ import monica from '../../images/monicasachdeva.jpg';
 import aj from "../../images/Aj.jpg";
 import chandra from "../../images/chandrashekhar.jpg";
 import santosh from "../../images/santoshkmishra.jpg";
+import sanket from "../../images/sanketgoyal.jpg";
 
 
 const speakers = [
@@ -42,6 +43,11 @@ const speakers = [
     name: "Prof. Bushra Ateeq",
     title: "BSBE",
     institution: "IIT Kanpur",
+  },
+  {
+    img: sanket,
+    name: "Dr. Prof. Sanket Goel",
+    institution: "BITS Pilani,(Hyderabad) India",
   },
   {
     img: p3,
