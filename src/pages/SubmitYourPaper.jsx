@@ -67,7 +67,7 @@ function ConferenceDetails() {
               Early Bird Registration
             </td>
             <td className="border border-black px-4 py-2">
-              30<sup>th</sup> September 2024
+              20<sup>th</sup> October 2024
             </td>
           </tr>
         </tbody>

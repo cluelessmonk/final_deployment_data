@@ -54,7 +54,7 @@ const Registration = () => {
           onClick={downloadFile}
           className="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 text-xl mb-4"
         >
-          Download Abstract Format
+          Download Abstract & Important Dates
         </button>
 
         <div

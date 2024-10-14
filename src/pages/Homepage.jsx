@@ -33,7 +33,7 @@ const HomePage = () => {
 
       {/* Flash Message */}
 <div className="bg-red-500 text-white py-4 text-center font-bold text-3xl animate-pulse">
-        Due to high demand from many participants, the deadline has now been extended to <strong>20th October 2024</strong>
+        Due to high demand from many participants, the Early Bird Registration deadline has now been extended to <strong>20th October 2024</strong>
       </div>
       <div className="bg-blue-500 text-white py-4 text-center text-xl">
   <marquee behavior="scroll" direction="left" scrollamount="10">
