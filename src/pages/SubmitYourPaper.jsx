@@ -59,7 +59,7 @@ function ConferenceDetails() {
               Acceptance and Notification
             </td>
             <td className="border border-black px-4 py-2">
-              15<sup>th</sup> October 2024
+              30<sup>th</sup> October 2024
             </td>
           </tr>
           <tr>
