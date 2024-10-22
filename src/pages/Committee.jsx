@@ -30,7 +30,7 @@ const Committee = () => {
       name: "Dr. Manisha Sachan",
       department: "Department of Biotechnology",
       college: "MNNIT Allahabad",
-      role: "Organizing Secretary",
+      role: "Chairperson,Head and Organizing Secretary  ",
       image: manisha,
     },
     {
@@ -59,13 +59,7 @@ const Committee = () => {
       role: "Organizing Coordinator",
       image: rajitha,
     },
-    {
-      name: "Dr. Sangeeta Negi",
-      department: " Head of Department of Biotechnology",
-      college: "MNNIT Allahabad",
-      role: "Chairperson",
-      image: sangeeta,
-    },
+
     {
       name: "Dr. Girijesh Patel",
       department: "Department of Biotechnology",
