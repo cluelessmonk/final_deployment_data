@@ -8,11 +8,15 @@ import img2 from "../images/home2.jpeg";
 import sponsor1 from "../images/sponsor1.jpeg"; // Department of Biotechnology India
 import sponsor2 from "../images/sponsor2.jpeg"; // Department of Science and Technology India
 import sponsor3 from "../images/sponsor3.jpeg"; // Council of Science and Technology UP
+import csir from "../images/csir_logo.png";
 import ChiefGuestSection from "../components/Chiefguest";
+import brns from "../images/brns_res.png"
 const sponsors = [
   { img: sponsor1, name: "Department of Biotechnology India" },
   { img: sponsor2, name: "Department of Science and Technology India" },
   { img: sponsor3, name: "Council of Science and Technology UP" },
+  { img: csir, name: "Council of Scientific and Industrial Research" },
+  { img: brns, name: "Board of Research in Nuclear Sciences" },
 ];
 
 const sponsorSettings = {
